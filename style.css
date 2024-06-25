@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    Red: hsl(0, 78%, 62%);
+Cyan: hsl(180, 62%, 55%);
+Orange: hsl(34, 97%, 64%);
+Blue: hsl(212, 86%, 64%);
+
+Dark-Blue: hsl(234, 12%, 34%);
+Grayish-Blue: hsl(229, 6%, 66%);
+Very-Light-Gray: hsl(0, 0%, 98%);
+}
+#card-section{
+    width: 100%;
+    min-height: 700px;
+    background: hsl(0, 0%, 98%);
+    margin: 15px;
+}
+#card-section h2,h1,p{
+text-align: center;
+}
+#card-section h2{
+    color:hsl(229, 6%, 66%);
+    font-weight: 400;
+    padding-top: 3rem;
+}
+#card-section h1{
+    color:hsl(234, 12%, 34%) ;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 0.7rem;
+}
+#card-section p{
+    color:hsl(229, 6%, 66%);
+    font-size: 15px;
+    font-weight: 200;
+    padding-top: 2rem;
+}
+.four-card-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.four-card{
+    width: 280px;
+    height: 300px;
+    background-color:hsl(0, 0%, 98%) ;
+    box-shadow: 5px 5px 5px hsl(229, 6%, 66%),-5px -5px 5px hsl(229, 6%, 66%);
+    border-radius: 10px;
+    padding: 10px;
+}
+.four-card h2{
+    float: left;
+    text-align: left;
+    color: hsl(234, 12%, 34%);
+}
+.four-card p{
+    float: left;
+    text-align: left;
+}
+.four-card img{
+    float: right;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+#one{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+#one img{
+    margin-top: 60px;
+    margin-right: 10px;
+}
+#two{
+    border-top: 5px solid hsl(0, 78%, 62%); 
+}
+#three{
+    border-top: 5px solid hsl(34, 97%, 64%); 
+}
+#four{
+    border-top: 5px solid hsl(234, 12%, 34%); 
+}
